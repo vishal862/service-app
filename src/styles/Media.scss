@@ -1,0 +1,99 @@
+@media screen  and (max-width:800px){
+    .home2>img{
+        width: 60%;
+    }
+    .home2 > div > p {
+        width: 84%;
+    }
+    .contact > div > form {
+        margin: 3rem;
+    }
+    .contact > div > form > div > input {
+        width: 20rem;
+        margin-top: 0.5rem;
+    }
+    .contact>div{
+        height: 90vh;
+    }
+    .home4>div{
+        height: 90vh;
+    }
+}
+@media screen  and (max-width:700px){
+    .home2>img{
+        width: 60%;
+    }
+    .home2 > div > p {
+        width: 84%;
+    }
+    .contact > div > form {
+        margin: 3rem;
+    }
+    .contact > div > form > div > input {
+        width: 20rem;
+        margin-top: 0.5rem;
+    }
+    .home4>div{
+        height:90vh ;
+    }
+}
+@media screen  and (max-width:600px){
+    
+    .home2 > div > p {
+        width: 95%;
+        margin-left: -25px;
+    }
+
+    .home > main > h1 {
+        font-size: 5rem;
+    }
+    .home2>img{
+        width: 60%;
+    }
+    .home2 > div > p {
+        width: 84%;
+    }
+    .contact > div > form {
+        margin: 3rem;
+    }
+    .contact > div > form > div > input {
+        width: 20rem;
+        margin-top: 0.5rem;
+    }
+    .home4>div{
+        height: 90vh;
+    }
+    .home4 > div > article > div {
+        height: 8rem;
+        width: 8rem;
+    }
+}
+
+@media screen  and (max-width:500px){
+    nav>h1{
+        display: none;
+    }
+    .home > main > h1 {
+        font-size: 4rem;
+    }
+}
+@media screen  and (max-width:400px){
+    nav > main > a {
+        margin: 0px 0.7rem;
+        color: black;
+    }
+    .home > main > h1{
+        font-size: 3rem;
+    }
+    .home2{
+        height: 90vh;
+        flex-direction: column;
+        margin-top: -320px;
+        >div{
+            height: 100%;
+        }
+    }
+    .home2>img{
+        width: 100%;
+    }
+}
